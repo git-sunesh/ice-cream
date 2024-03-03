@@ -296,6 +296,7 @@ input:checked ~.list{
 /* about img section */
 .about-img-box{
     justify-content: center;
+    align-items: center;
 }
  /* about section-2,3 img */
 
