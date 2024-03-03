@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* nav-bar-log */
+.nav-bar-logo img{
+    height:70px;
+    width:70px;
+}
+/* nav-bar-section */
+.nav-bar-section{
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+    background-color: #42536d;
+}
+.nav-bar-section a{
+    text-decoration: none;
+}
+label .fa-bars,input{
+    display:none;
+}
+
+/* list */
+.list{
+    display: flex;
+    gap:60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.list li{
+    list-style: none;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.list li:hover{
+    width:100%;
+    transition: 2s;
+    
+}
+
+/* section------------------------1 */
+.section-1{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgba(196, 246, 246, 0.873);
+
+}
+.section-1 div:nth-child(1) p{
+    font-size: 23px;
+    padding:10px 0px 20px 0px;
+  
+}
+.section-1 > :nth-child(1){
+    width:35%;
+    background-color:rgba(196, 246, 246, 0.873);
+    padding:50px 0px 0px 50px;
+}
+/* section-1 img box */
+.section-1 > :nth-child(2){
+   background-color:rgba(196, 246, 246, 0.873);
+   width:60%;
+}
+.section-1 > :nth-child(2) img{
+    border-bottom-left-radius:15%;
+    width:100%;
+    height:100%;
+
+}
+.section-1 h1{
+    font-size: 40px;
+    padding-bottom:30px;
+    color: #001c49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.section-1 button{
+    width:60%;
+    padding:20px;
+    border-radius:7px;
+    border:none;
+    background-color: #001c49;
+    color:white;
+    font-size:23px;
+}
+/* .section-1 button i */
+.section-1 button i{
+    color:rgb(123, 180, 233);
+    font-size: 20px;
+}
+/* our faveorite */
+.our-fav-receipes{
+    padding-bottom:3%;
+}
+.section-2-img{
+    display:flex;
+    justify-content: space-around;
+    gap:20px;
+}
+.our-fav-receipes h1,.outshine h1,.dreyer h1{
+    font-size: 42px;
+    color: #001c49;
+    padding-top:3%;
+    padding-bottom:2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.ss{
+    height:300px;
+    width:395px;
+    border-bottom-right-radius: 20%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.section-2-img >:nth-child(-n+3){
+    width:395px;
+}
+.section-2-img div h4{
+    font-size: 30px;
+    padding-top:5px;
+    padding-bottom:10px;
+}
+/* our faveorite p */
+
+.section-2-img div >:nth-child(4){
+    font-size: 25px;
+    color: #001c49;
+    padding-top:15px;
+    line-height: 35px;
+}
+.section-2-img div >:nth-child(3){
+    font-size: 23px;
+}
+.section-2-img div span{
+    height:25px;
+    width:25px;
+    border-radius:50%;
+    border:2px solid cyan;
+    padding:5px;
+}
+.section-2-img div img{
+  width:100%;
+  height:100%;
+  border-bottom-right-radius: 20%;
+  transition: all 1s;
+}
+.section-2-img div img:hover{
+    transform:scale(1.1);
+}
+.section-2-img div span i{
+   font-size: 20px;
+}
+/* our fav receipes */
+.our-fav-receipes button{
+     width:20%;
+     padding:15px;
+     border:none;
+     font-size: 23px;
+     background-color:  #001c49;
+     color:white;
+     border-radius:10px;
+}
+/* out shine */
+.outshine{
+    display: flex;
+    height:400px;
+}
+.outshine>:nth-child(1){
+    
+    width:40%;
+    padding-top:10%;
+    padding-left:3%;
+}
+.outshine>:nth-child(2),.dreyer>:nth-child(1) {
+    width:60%;
+    height:420px;
+
+}
+
+.outshine p,.dreyer p{
+    font-size: 25px;
+    line-height:28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom:10px;
+}
+.outshine img,.dreyer img{
+    width:100%;
+    height:100%;
+}
+/* dreyer */
+.dreyer{
+  display: flex;
+  justify-content: space-around;
+  padding-top:3%;
+  padding-bottom:1%;
+
+}
+.dreyer > :nth-child(2){
+    width:40%;
+    padding-top:5%;
+    padding-left:3%;
+    padding-bottom: 1%;
+    background-color: cyan;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.dreyer button{
+    width:35%;
+    padding:15px;
+    background-color: #001c49;
+    border:none;
+    color:white;
+    border-radius: 10px;
+    font-size:20px;
+}
+footer{
+    display:flex;
+    list-style: none;
+    background-color: #7d899b;
+   padding-top:3%;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-img-50 {
+    width:20%;
+    height:200px;
+}
+.footer-img-50 img{
+    width:100%;
+    height:100%;
+}
+footer li{
+    padding-bottom:10px;
+    font-size: 20px;
+
+}
+footer h2{
+    padding-bottom:10px;
+    font-size: 25px;
+
+}
+footer p{
+    padding-bottom:10px;
+    font-size: 20px;
+}
+/* footer icon */
+footer div:nth-child(2) div{
+    display: flex;
+    width:50%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:30%;
+}
+footer div:nth-child(2) div li:nth-child(1){
+    color:blue;
+    font-size:36px;
+
+}
+footer div:nth-child(2) div li:nth-child(2){
+    color: #ee2a7b ;
+      font-size:36px;
+}
+footer div:nth-child(2) div li:nth-child(3){
+    font-size:36px;
+
+}
+footer div:nth-child(2){
+    padding-top:7px;
+}
+/* media queery */
+@media screen and (min-width:320px) and (max-width:800px){
+     /* nav- bar */
+     .nav-bar-section{
+        width:100%;
+        
+     }
+     .list{
+        position:fixed;
+        height:90vh;
+        background-color:rgb(203, 202, 202);
+        color:#001c49;
+        left:-100%;
+        transition: all 3s;
+        top:30%;  
+        flex-direction: column;
+        gap:10px;
+        justify-content: center;
+        width:100%;
+    }
+    label .fa-bars{
+        display:inline-block;
+        top:20%;
+        display:flex;
+        justify-content: center;
+    }
+input:checked ~.list{
+    left:0%;
+}
+    /* section-1 */
+    .section-1{
+        flex-direction: column;
+        gap:10px;
+        width:100%;
+        border:1px solid red;
+    }
+    .section-1 div:nth-child(1) p{
+        font-size: 25px;
+        padding:5px 0px 10px 0px;
+        width:100%;
+      
+    }
+    .section-1 > :nth-child(1){
+        width:100%;
+        padding:20px 0px 0px 30px;
+        
+    }
+    .section-1 > :nth-child(1){
+        width:100%;
+        background-color:rgba(196, 246, 246, 0.873);
+        padding:50px 0px 0px 50px;
+    }
+    /* section-1 img box */
+    .section-1 > :nth-child(2){
+       background-color:rgba(196, 246, 246, 0.873);
+       width:100%;
+       border:1px solid yellow;
+    }
+
+    .section-1 button{
+        width:60%;
+        padding:15px;
+        font-size:20px;
+    }
+    .section-1 > :nth-child(2) img{
+        width:100%;
+     }
+     /* our receipes */
+     .section-2-img{
+        flex-direction: column;
+        width:100%;
+     }
+     .our-fav-receipes button{
+        width:70%;
+        padding:15px;
+        border:none;
+        font-size: 20px;
+        background-color:  #001c49;
+        color:white;
+        border-radius:10px;
+   }
+
+   /* out shine */
+   .outshine{
+      flex-direction: column;
+      height:100%;
+   }
+   .outshine>:nth-child(1){
+    
+    width:100%;
+    padding-top:10%;
+    padding-left:3%;
+}
+.outshine>:nth-child(2),.dreyer>:nth-child(1) {
+    width:100%;
+    height:300px;
+
+}
+
+.outshine p,.dreyer p{
+    font-size: 23px;
+    line-height:27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom:8px;
+}
+.outshine img,.dreyer img{
+    width:100%;
+    height:100%;
+}
+/* drayer */
+.dreyer{
+    flex-direction: column;
+    width:100%;
+}
+.dreyer > :nth-child(2){
+    width:100%;
+    padding-top:5%;
+    padding-left:3%;
+    padding-bottom: 1%;
+    background-color: cyan;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.dreyer button{
+    width:50%;
+    padding:15px;
+    background-color: #001c49;
+    border:none;
+    color:white;
+    border-radius: 10px;
+    font-size:20px;
+}
+/* footer */
+footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+}
+footer div:nth-child(2) div{
+    display: flex;
+    width:90%;
+    justify-content: space-evenly;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+footer>:nth-child(2){
+    text-align: center;
+    width:100%;
+}
+
+}
+
