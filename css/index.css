@@ -150,7 +150,6 @@ label .fa-bars,input{
 
 .home-img-box div img:hover{
     transform: scale(1.1);
-    /* cursor: zoom-in; */
 }
 /* section-3 */
 .section-3{
@@ -300,7 +299,6 @@ background-color: rgb(31, 185, 31);
     padding:5px;
 }
 /* footer */
-/* media -----------------------query */
 footer{
     display:flex;
     list-style: none;
@@ -465,9 +463,6 @@ input:checked ~.list{
 }
 .section-4-content p{
     font-size:20px;
-}
-.section-4-content button{
-    /* padding:10px; */
 }
 .section-5-brands{
     flex-direction: column;
