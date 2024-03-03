@@ -1,0 +1,104 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* nav-bar-log */
+.nav-bar-logo img{
+    height:70px;
+    width:70px;
+}
+/* nav-bar-section */
+.nav-bar-section{
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+    background-color: #42536d;
+}
+.nav-bar-section a{
+    text-decoration: none;
+}
+label .fa-bars,input{
+    display:none;
+}
+
+/* list */
+.list{
+    display: flex;
+    gap:60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.list li{
+    list-style: none;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.list li:hover{
+    width:100%;
+    transition: 2s;
+     border-bottom: 2px solid red;
+}
+/* section------------------------1 */
+.about-section-1{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgba(196, 246, 246, 0.873);
+    margin-bottom: 2%;
+
+}
+.about-section-1 div:nth-child(1) p{
+    font-size: 23px;
+    padding:10px 0px 20px 0px;
+  
+}
+.about-section-1 > :nth-child(1){
+    width:35%;
+    background-color:rgba(196, 246, 246, 0.873);
+    padding:50px 0px 0px 50px;
+}
+/* section-1 img box */
+.about-section-1 > :nth-child(2){
+   background-color:rgba(196, 246, 246, 0.873);
+   width:60%;
+}
+.about-section-1 > :nth-child(2) img{
+    border-bottom-left-radius:15%;
+    width:100%;
+    height:100%;
+
+}
+.about-section-1 h1{
+    font-size: 40px;
+    padding-bottom:30px;
+    color: #001c49;
+
+}
+.about-section-1 button{
+    width:60%;
+    padding:20px;
+    border-radius:7px;
+    border:none;
+    background-color: #001c49;
+    color:white;
+    font-size:23px;
+}
+/* .section-1 button i */
+.about-section-1 button i{
+    color:rgb(123, 180, 233);
+    font-size: 20px;
+}
+
+/* about section-2 */
+.about-section-2{
+    display:flex;
+}
+.about-section-2 div :nth-child(1){
+    width:60%;
+}
