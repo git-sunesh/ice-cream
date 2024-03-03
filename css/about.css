@@ -293,12 +293,18 @@ input:checked ~.list{
     padding:5px;
     gap:10px;
 }
+/* about img section */
+.about-img-box{
+    justify-content: center;
+}
  /* about section-2,3 img */
+
 
 .about-section-2 > :nth-child(1),.about-section-3 > :nth-child(2){
     
      width:100%;
 }
+/* about last section */
 .about-last-section{
     flex-direction: column;
     justify-content: center;
@@ -324,12 +330,4 @@ footer>:nth-child(2){
     text-align: center;
     width:100%;
 }
-}
-
-
-
-
-
-
-
 }
