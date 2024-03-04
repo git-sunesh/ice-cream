@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* nav-bar-log */
+.nav-bar-logo img{
+    height:70px;
+    width:70px;
+}
+/* nav-bar-section */
+.nav-bar-section{
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+    background-color: #42536d;
+}
+.nav-bar-section a{
+    text-decoration: none;
+}
+label .fa-bars,input{
+    display:none;
+}
+
+/* list */
+.list{
+    display: flex;
+    gap:60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.list li{
+    list-style: none;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.list li:hover{
+    width:100%;
+    transition: 2s;
+}
+/* brands section1 */
+.brands-section-1{
+   padding:15px;
+}
+.brands-section-1 h1{
+    font-size: 40px;
+    padding-bottom:30px;
+    color: #001c49;
+}
+.brands-section-1 >:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+.brands-section-1 >:nth-child(2) div:nth-child(-n+3){
+    width:25%;
+}
+.brands-section-1 >:nth-child(2) img {
+    height:350px;
+    width:100%;
+    border-radius: 10px;;
+    border-bottom-right-radius: 18%;
+}
+.brands-img-box h1{
+    font-size: 40px;
+    padding-bottom:10px;
+    color: #001c49;
+}
+.brands-img-box p{
+    font-size: 23px;
+    padding-bottom:10px;
+}
+.brands-img-box h3{
+    font-size: 20px;
+    color: #001c49;
+    padding-bottom:10px;
+
+}
+.brands-img-box i{
+color:rgb(123, 180, 233);
+    font-size: 20px;
+}
+.brands-img-box span{
+height:27px;
+    width:27px;
+    border-radius:50%;
+    border:2px solid cyan;
+    padding:5px;
+}
