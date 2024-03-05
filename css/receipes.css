@@ -291,7 +291,7 @@ footer div:nth-child(2){
      .list{
         position:fixed;
         height:90vh;
-        background-color:rgb(203, 202, 202);
+        background-color:red;;
         color:#001c49;
         left:-100%;
         transition: all 3s;
