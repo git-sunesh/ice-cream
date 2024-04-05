@@ -363,7 +363,7 @@ footer div:nth-child(2){
     /* nav- bar */
     .list{
         position:fixed;
-        height:90vh;
+        height:60vh;
         color:white;
         left:-100%;
         transition: all 3s;
@@ -371,14 +371,14 @@ footer div:nth-child(2){
         flex-direction: column;
         gap:10px;
         justify-content: center;
-        background-color:red;
+        background-color:gray;
         width:100%;
     }
     label .fa-bars{
         display:inline-block;
         position:absolute;
-        /* top:12%;
-        right:5%; */
+        top:12%;
+        right:5%;
         display:flex;
         justify-content: center;
         transition: all 1s;
@@ -387,8 +387,8 @@ footer div:nth-child(2){
 
     }
     label .fa-xmark{
-        /* top:12%;
-        right:5%; */
+        top:12%;
+        right:5%;
         position:absolute;
         font-size:35px;
 
