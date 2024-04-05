@@ -367,7 +367,7 @@ footer div:nth-child(2){
         color:white;
         left:-100%;
         transition: all 3s;
-        top:10%;  
+        top:33%;  
         flex-direction: column;
         gap:10px;
         justify-content: center;
@@ -377,7 +377,7 @@ footer div:nth-child(2){
     label .fa-bars{
         display:inline-block;
         position:absolute;
-        top:12%;
+        top:5%;
         right:5%;
         display:flex;
         justify-content: center;
