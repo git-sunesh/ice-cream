@@ -367,11 +367,11 @@ footer div:nth-child(2){
         color:white;
         left:-100%;
         transition: all 3s;
-        top:20%;  
+        top:10%;  
         flex-direction: column;
         gap:10px;
         justify-content: center;
-        background-color:gray;
+        background-color:red;
         width:100%;
     }
     label .fa-bars{
