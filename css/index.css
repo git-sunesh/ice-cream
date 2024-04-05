@@ -21,8 +21,9 @@ html{
 .nav-bar-section a{
     text-decoration: none;
 }
-label .fa-bars,input{
+label .fa-bars,input,label .fa-xmark{
     display:none;
+    color:white;
 }
 
 /* list */
@@ -39,11 +40,15 @@ label .fa-bars,input{
     cursor: pointer;
     
 }
+.list a{
+    padding:10px 5px;
+    border-radius:6px;
+    text-decoration: none;
+
+}
 
 .list li:hover{
-    width:100%;
-    transition: 2s;
-     border-bottom: 2px solid red;
+   background-color: red;
 }
 /* section------------------------1 */
 .section-1{
@@ -359,24 +364,48 @@ footer div:nth-child(2){
     .list{
         position:fixed;
         height:90vh;
-        background-color:red;
         color:white;
         left:-100%;
         transition: all 3s;
-        top:60px;  
+        top:32%;  
         flex-direction: column;
         gap:10px;
         justify-content: center;
-
+        background-color:gray;
         width:100%;
     }
     label .fa-bars{
         display:inline-block;
-        top:20%;
-        border:1px solid red;
+        position:absolute;
+        top:12%;
+        right:5%;
         display:flex;
         justify-content: center;
+        transition: all 1s;
+        font-size: 25px;
+
+
     }
+    label .fa-xmark{
+        top:12%;
+        right:5%;
+        position:absolute;
+        font-size:35px;
+
+
+    }
+    input:checked ~ label .fa-xmark{
+        display:inline-block;
+        transition: all 1s;
+        font-size: 25px;
+
+    }
+    input:checked ~ label .fa-bars{
+        display: none;
+        transition: all 1s;
+      
+    }
+
 input:checked ~.list{
     left:0%;
 }
