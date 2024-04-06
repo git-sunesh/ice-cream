@@ -372,8 +372,8 @@ footer div:nth-child(2){
         height:60vh;
         color:white;
         left:-100%;
-        transition: all 2s;
-        top:16%;  
+        transition: all 1s;
+        top:15.5%;  
         flex-direction: column;
         gap:10px;
         justify-content: center;
