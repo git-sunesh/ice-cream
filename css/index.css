@@ -369,7 +369,7 @@ footer div:nth-child(2){
     /* nav- bar */
     .list{
         position:fixed;
-        height:60vh;
+        height:50vh;
         color:white;
         left:-100%;
         transition: all 1s;
