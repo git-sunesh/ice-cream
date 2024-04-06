@@ -388,7 +388,7 @@ footer div:nth-child(2){
         display:flex;
         justify-content: center;
         transition: all 1s;
-        font-size: 25px;
+        font-size: 30px;
 
 
     }
@@ -396,7 +396,7 @@ footer div:nth-child(2){
          top:5%;
         right:5%; 
         position:absolute;
-        font-size:35px;
+        font-size:40px;
 
 
     }
