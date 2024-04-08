@@ -44,7 +44,7 @@ label .fa-bars,input,label .fa-xmark{
 .list li:hover{
     width:100%;
     transition: 2s;
-     border-bottom: 2px solid red;
+
 }
 /* section------------------------1 */
 .about-section-1{
