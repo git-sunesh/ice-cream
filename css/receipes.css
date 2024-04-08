@@ -52,6 +52,12 @@ label .fa-bars,input,label .fa-xmark{
     transition: 2s;
     
 }
+.list li:hover{
+    background-color: white;
+    color:#42536d;
+ 
+ 
+ }
 
 /* section------------------------1 */
 .section-1{
@@ -357,7 +363,6 @@ input:checked ~.list{
     .section-1 > :nth-child(2){
        background-color:rgba(196, 246, 246, 0.873);
        width:100%;
-       border:1px solid yellow;
     }
 
     .section-1 button{
