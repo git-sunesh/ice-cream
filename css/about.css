@@ -21,8 +21,9 @@ html{
 .nav-bar-section a{
     text-decoration: none;
 }
-label .fa-bars,input{
+label .fa-bars,input,label .fa-xmark{
     display:none;
+    color:white;
 }
 
 /* list */
@@ -252,24 +253,49 @@ footer div:nth-child(2){
     /* nav- bar */
     .list{
         position:fixed;
-        height:80vh;
-        background-color: rgb(127, 61, 189);
+        height:50vh;
         color:white;
         left:-100%;
-        transition: all 3s;
-        top:60px;  
+        transition: all 1s;
+        top:15.5%;  
         flex-direction: column;
         gap:10px;
         justify-content: center;
-
+         background-color: #42536d;
         width:100%;
     }
     label .fa-bars{
         display:inline-block;
-        border:1px solid red;
+        position:absolute;
+        top:5%;
+        right:5%; 
         display:flex;
         justify-content: center;
+        transition: all 1s;
+        font-size: 30px;
+
+
     }
+    label .fa-xmark{
+         top:5%;
+        right:5%; 
+        position:absolute;
+        font-size:40px;
+
+
+    }
+    input:checked ~ label .fa-xmark{
+        display:inline-block;
+        transition: all 1s;
+        font-size: 25px;
+
+    }
+    input:checked ~ label .fa-bars{
+        display: none;
+        transition: all 1s;
+      
+    }
+
 input:checked ~.list{
     left:0%;
 }
