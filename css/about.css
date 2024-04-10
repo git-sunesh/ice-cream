@@ -328,7 +328,7 @@ input:checked ~.list{
     padding:5px;
     gap:10px;
 }
-.about-section-1 button{
+.about-section-1 button,.about-section-2 button{
     width:70%;
     padding:10px;
 }
