@@ -319,6 +319,7 @@ input:checked ~.list{
 /* .brands-section-2 */
 .brands-section-2{
     flex-direction: column;
+    padding:10px;
 }
 .brands-section-2 div{
     width:100%;
@@ -326,6 +327,7 @@ input:checked ~.list{
 /* .brands-section-3 */
 .brands-section-3{
     flex-direction: column;
+    padding:10px;
 }
 .brands-section-3 div{
     width:100%;
