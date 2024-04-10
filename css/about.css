@@ -38,17 +38,23 @@ label .fa-bars,input,label .fa-xmark{
     list-style: none;
     color:white;
     cursor: pointer;
+    padding:2px;
+    border-radius: 5px;
+    transition: all 1s;
     
+}
+.list a{
+    padding:10px 5px;
+    border-radius:6px;
+    text-decoration: none;
+
 }
 
 .list li:hover{
-    width:100%;
-    transition: 2s;
+   background-color: white;
+   color:#42536d;
 }
-.list li:hover{
-    background-color: white;
-    color:#42536d;
- }
+
 /* section------------------------1 */
 .about-section-1{
     display:flex;
