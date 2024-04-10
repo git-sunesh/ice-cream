@@ -328,6 +328,10 @@ input:checked ~.list{
     padding:5px;
     gap:10px;
 }
+.about-section-1 button{
+    width:70%;
+    padding:10px;
+}
 /* about img section */
 .about-img-box{
     justify-content: center;
