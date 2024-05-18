@@ -184,8 +184,6 @@ label .fa-bars,input,label .fa-xmark{
 .section-4-img{
     width:50%;
     border-bottom-left-radius:20%;
-    border:1px solid pink;
-
 }
 .section-4-img img{
     height:100%;
@@ -204,16 +202,16 @@ label .fa-bars,input,label .fa-xmark{
     padding-bottom:20px;
 }
 .section-4-content button{
-    border-radius:7px;
+border-radius:7px;
 border:none;
 background-color: #001c49;
 color:white;
 font-size:18px;
-padding:15px;
+padding:17px;
 }
 .section-4> div:nth-child(2){
 padding:12%;
-background-color: rgb(31, 185, 31);
+background-color: rgb(66, 236, 66);
 }
 /* section-5-brands */
 .section-5-brands{
