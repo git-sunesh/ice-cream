@@ -386,6 +386,16 @@ footer div:nth-child(2){
         justify-content: center;
          background-color: #42536d;
         width:100%;
+
+    }
+    @keyframes trans{
+        from{
+            transform: translateX(0%);
+        }
+        to{
+            transform: translateX(0%);
+
+        }
     }
     label .fa-bars{
         display:inline-block;
