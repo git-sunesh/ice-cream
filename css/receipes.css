@@ -189,6 +189,8 @@ label .fa-bars,input,label .fa-xmark{
 .outshine{
     display: flex;
     height:400px;
+    padding-right:1%;
+
 }
 .outshine>:nth-child(1){
     
