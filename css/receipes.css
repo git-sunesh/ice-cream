@@ -190,7 +190,7 @@ label .fa-bars,input,label .fa-xmark{
 .outshine{
     display: flex;
     height:400px;
-    padding-left:1%;
+    padding:2%;
 
 }
 .outshine>:nth-child(1){
