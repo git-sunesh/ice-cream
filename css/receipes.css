@@ -114,7 +114,7 @@ label .fa-bars,input,label .fa-xmark{
 /* our faveorite */
 .our-fav-receipes{
     padding-bottom:3%;
-    padding-left:1%;
+    padding-left:2%;
 }
 .section-2-img{
     display:flex;
@@ -176,7 +176,7 @@ label .fa-bars,input,label .fa-xmark{
 }
 /* our fav receipes */
 .our-fav-receipes button{
-     width:17%;
+     width:18%;
      padding:15px;
      border:none;
      font-size: 23px;
@@ -184,6 +184,7 @@ label .fa-bars,input,label .fa-xmark{
      color:white;
      border-radius:10px;
      margin-left: 1%;
+     margin-top:1%;
 }
 /* out shine */
 .outshine{
